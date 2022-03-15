@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ITindr</string>
+
+    <string name="permission_denied_with_check_mark">Разрешите доступ в настройках приложения</string>
+    <string name="permission_denied_camera">Нет доступа к камере</string>
+    <string name="permission_denied_gallery">Нет доступа к галерее</string>
+
+    <string name="dialog_take_photo">Сделать фото</string>
+    <string name="dialog_open_photo">Выбрать из галереи</string>
+    <string name="dialog_dismiss">Отмена</string>
+
+    <string name="taking_photo_error">Ошибка при фотографировании</string>
+
+    <string name="onboarding_description">Ты найдешь того, кто\nпоревьюит твой код</string>
+    <string name="button_sign_up">Зарегистрироваться</string>
+    <string name="button_log_in">Войти</string>
+    <string name="edit_text_email">E-mail</string>
+    <string name="edit_text_password">Пароль</string>
+    <string name="edit_text_hint_repeat_password">Повторите пароль</string>
+    <string name="button_back">Назад</string>
+    <string name="sing_up_registering">Регистрация</string>
+    <string name="log_in_authorization">Авторизация</string>
+    <string name="button_save">Сохранить</string>
+    <string name="info_pick_photo">Выбрать фото</string>
+    <string name="info_remove_photo">Удалить фото</string>
+    <string name="edit_text_name">Имя</string>
+    <string name="edit_text_about_yourself">О себе</string>
+
+    <string name="create_profile_tell_about_yourself">Расскажи о себе</string>
+    <string name="create_profile_specify_interests">Укажи интересы</string>
+    <string name="edit_profile_tell_about_yourself">О себе</string>
+    <string name="edit_profile_specify_interests">Интересы</string>
+
+    <string name="bottom_nav_item_search">Поиск</string>
+    <string name="bottom_nav_item_people">Люди</string>
+    <string name="bottom_nav_item_chats">Чаты</string>
+    <string name="bottom_nav_item_profile">Профиль</string>
+
+    <string name="toolbar_profile_editing">Редактирование</string>
+
+    <string name="search_cancel">Отказ</string>
+    <string name="search_like">Лайк</string>
+    <string name="profile_edit">Редактировать</string>
+    <string name="chat_hint">Сообщение…</string>
+    <string name="match_message"><![CDATA[Ваши интерфейсы подошли\nдруг к другу]]></string>
+    <string name="match_write_message">Написать сообщение</string>
+
+    <string name="profile_placeholder_username">Имя пользователя</string>
+    <string name="profile_placeholder_about_myself">Описание профиля</string>
+
+    <string name="error_small_password_length">Пароль слишком короткий</string>
+    <string name="error_different_passwords">Пароли различаются</string>
+    <string name="error_email_is_empty">Поле с email пустое</string>
+    <string name="error_not_email_type">Введенный формат не соответствует формату email</string>
+
+</resources>

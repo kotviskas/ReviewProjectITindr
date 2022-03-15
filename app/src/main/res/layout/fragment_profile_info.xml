@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context=".ui.profile.ProfileInfoFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/infoLeftGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/infoRightGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+
+    <TextView
+        android:id="@+id/infoAboutYourselfTextView"
+        style="@style/Base.Widget.MaterialComponents.TextView.BoldText.Title.Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_profile_tell_about_yourself"
+        app:layout_constraintStart_toStartOf="@+id/infoLeftGuideline"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/infoPickPhotoButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="@string/info_pick_photo"
+        app:layout_constraintBottom_toBottomOf="@+id/infoAvatarImageView"
+        app:layout_constraintStart_toEndOf="@+id/infoAvatarImageView"
+        app:layout_constraintTop_toTopOf="@+id/infoAvatarImageView" />
+
+    <ImageView
+        android:id="@+id/infoAvatarImageView"
+        style="@style/Widget.MaterialComponents.ShapeableImageView.AvatarPlaceHolder"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@+id/infoLeftGuideline"
+        app:layout_constraintTop_toBottomOf="@+id/infoAboutYourselfTextView"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/infoNameTextInputLayout"
+        style="@style/Widget.Design.TextInputEditText.MyTextInput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@id/infoRightGuideline"
+        app:layout_constraintStart_toStartOf="@id/infoLeftGuideline"
+        app:layout_constraintTop_toBottomOf="@id/infoAvatarImageView">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/infoNameTextInputEditText"
+            style="@style/Base.Widget.MaterialComponents.TextView.RegularText.Description.Black.MyTextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_text_name" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/infoAboutYourselfTextInputLayout"
+        style="@style/Widget.Design.TextInputEditText.MyTextInput"
+        android:layout_width="0dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toStartOf="@id/infoRightGuideline"
+        app:layout_constraintStart_toStartOf="@id/infoLeftGuideline"
+        app:layout_constraintTop_toBottomOf="@id/infoNameTextInputLayout">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/infoAboutYourselfTextInputEditText"
+            style="@style/Base.Widget.MaterialComponents.TextView.RegularText.Description.Black.MyTextInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|top"
+            android:hint="@string/edit_text_about_yourself" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/infoTypeInterestsTextView"
+        style="@style/Base.Widget.MaterialComponents.TextView.BoldText.Title.Pink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/edit_profile_specify_interests"
+        app:layout_constraintStart_toStartOf="@+id/infoLeftGuideline"
+        app:layout_constraintTop_toBottomOf="@+id/infoAboutYourselfTextInputLayout" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/infoTopicsChipGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:chipSpacingHorizontal="8dp"
+        app:chipSpacingVertical="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/infoRightGuideline"
+        app:layout_constraintStart_toStartOf="@+id/infoLeftGuideline"
+        app:layout_constraintTop_toBottomOf="@+id/infoTypeInterestsTextView">
+
+    </com.google.android.material.chip.ChipGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

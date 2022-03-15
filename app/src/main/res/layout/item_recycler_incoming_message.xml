@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/incomingAvatarImageView"
+        style="@style/Widget.MaterialComponents.ShapeableImageView.AvatarPlaceHolder"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/incomingBackgroundImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="-16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/incomingBarrier"
+        app:layout_constraintStart_toEndOf="@+id/incomingAvatarImageView"
+        app:layout_constraintTop_toTopOf="@id/incomingMessageTextView"
+        app:srcCompat="@drawable/bg_incoming_message"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/incomingMessageTextView"
+        style="@style/Base.Widget.MaterialComponents.TextView.RegularText.Description.Black.MessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="Открыл тебе доступ к своему приватному репо"
+        app:layout_constraintBottom_toTopOf="@+id/incomingImageImageView"
+        app:layout_constraintStart_toStartOf="@id/incomingBackgroundImageView" />
+
+    <TextView
+        android:id="@+id/incomingDataTextView"
+        style="@style/Base.Widget.MaterialComponents.TextView.RegularText.MessageData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="12:58 • 23 августа 2021"
+        app:layout_constraintBottom_toBottomOf="@id/incomingBackgroundImageView"
+        app:layout_constraintStart_toStartOf="@id/incomingBackgroundImageView" />
+
+    <ImageView
+        android:id="@+id/incomingImageImageView"
+        style="@style/MessageImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@+id/incomingDataTextView"
+        app:layout_constraintStart_toStartOf="@id/incomingBackgroundImageView"
+        app:srcCompat="@drawable/img_message_example"
+        tools:ignore="ContentDescription" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/incomingBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="right"
+        app:constraint_referenced_ids="incomingMessageTextView,incomingImageImageView,incomingDataTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
