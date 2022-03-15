@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/outgoingAvatarImageView"
+        style="@style/Widget.MaterialComponents.ShapeableImageView.AvatarPlaceHolder"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/outgoingBackgroundImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-16dp"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/outgoingAvatarImageView"
+        app:layout_constraintStart_toStartOf="@id/outgoingBarrier"
+        app:layout_constraintTop_toTopOf="@id/outgoingMessageTextView"
+        app:srcCompat="@drawable/bg_outgoing_message"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/outgoingImageImageView"
+        style="@style/MessageImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toTopOf="@id/outgoingDataTextView"
+        app:layout_constraintEnd_toEndOf="@id/outgoingBackgroundImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/outgoingBarrier"
+        app:srcCompat="@drawable/img_message_example"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/outgoingDataTextView"
+        style="@style/Base.Widget.MaterialComponents.TextView.RegularText.MessageData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:maxLines="1"
+        android:text="12:58 • 23 августа 2021"
+        app:layout_constraintBottom_toBottomOf="@id/outgoingBackgroundImageView"
+        app:layout_constraintEnd_toEndOf="@+id/outgoingBackgroundImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/outgoingBarrier" />
+
+    <TextView
+        android:id="@+id/outgoingMessageTextView"
+        style="@style/Base.Widget.MaterialComponents.TextView.RegularText.Description.Black.MessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="Открыл asdasdasdasdasdasdasdasd sadas"
+        app:layout_constraintBottom_toTopOf="@id/outgoingImageImageView"
+        app:layout_constraintEnd_toEndOf="@id/outgoingBackgroundImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/outgoingBarrier" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/outgoingBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left"
+        app:constraint_referenced_ids="outgoingMessageTextView,outgoingImageImageView,outgoingDataTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

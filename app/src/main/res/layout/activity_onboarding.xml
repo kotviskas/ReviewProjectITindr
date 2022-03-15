@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.onboarding.OnboardingActivity">
+
+    <ImageView
+        android:id="@+id/onboardingTitleImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/img_onboarding_title"
+        app:layout_constraintBottom_toTopOf="@+id/onboardingDescriptionTextView"
+        app:layout_constraintEnd_toStartOf="@+id/onboardingRightGuideline"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/onboardingLeftGuideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        style="@style/Base.Widget.MaterialComponents.TextView.BoldText.Description.Pink"
+        android:id="@+id/onboardingDescriptionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/onboarding_description"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/onboardingPreviewImageView"
+        app:layout_constraintEnd_toStartOf="@+id/onboardingRightGuideline"
+        app:layout_constraintStart_toStartOf="@+id/onboardingLeftGuideline"
+        app:layout_constraintTop_toBottomOf="@+id/onboardingTitleImageView" />
+
+    <ImageView
+        android:id="@+id/onboardingPreviewImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_onboarding_preview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/onboardingRightGuideline"
+        app:layout_constraintStart_toStartOf="@+id/onboardingLeftGuideline"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/onboardingSignUpButton"
+        style="@style/Widget.MaterialComponents.Button.MyButton.Pink.Register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/onboardingLogInButton"
+        app:layout_constraintEnd_toStartOf="@+id/onboardingRightGuideline"
+        app:layout_constraintStart_toStartOf="@+id/onboardingLeftGuideline" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/onboardingLogInButton"
+        style="@style/Widget.MaterialComponents.Button.MyButton.White"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/button_log_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/onboardingRightGuideline"
+        app:layout_constraintStart_toStartOf="@+id/onboardingLeftGuideline" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/onboardingLeftGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/onboardingRightGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

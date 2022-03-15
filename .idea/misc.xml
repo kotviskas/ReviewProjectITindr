@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg__rounded_avatar.xml" value="0.5703125" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_about_user_bottom_gradient.xml" value="0.33194444444444443" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_about_user_toolbar.xml" value="0.4684931506849315" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_button_gradient.xml" value="0.5703125" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_chip_selector.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_defaulf_avatar_fullscreen.xml" value="0.3273972602739726" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_edit_text.xml" value="0.5703125" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_incoming_message.xml" value="0.5069444444444444" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_message_image.xml" value="0.3402777777777778" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_message_writing_field.xml" value="0.5069444444444444" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_outgoing_message.xml" value="0.5069444444444444" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_pinned_image.xml" value="0.5069444444444444" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_rounded_avatar.xml" value="0.43020833333333336" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_splash_screen.xml" value="0.28354430379746837" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/bg_splash_screen_gradient.xml" value="0.28717948717948716" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/ic_avatar_foreground.xml" value="0.5703125" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/ic_default_avatar.xml" value="0.3264840182648402" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/ic_people.xml" value="0.5703125" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/ic_text_cursor.xml" value="3.9107142857142856" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/img_about_user_sample.xml" value="0.33194444444444443" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/img_splash_screen.xml" value="0.25833333333333336" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/drawable/test.xml" value="0.5703125" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_about_user.xml" value="0.5" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_chat.xml" value="0.5" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_chats.xml" value="0.4925925925925926" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_create_profile.xml" value="0.25" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_edit_profile.xml" value="0.49382716049382713" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_info.xml" value="0.5" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_log_in.xml" value="0.33" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_match.xml" value="0.41388888888888886" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_onboarding.xml" value="0.33" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/activity_splash.xml" value="0.1338763575605681" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/chip_template.xml" value="0.2077001013171226" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/dialog_fragment_about_user.xml" value="0.5" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/dialog_fragment_match.xml" value="0.36944444444444446" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/fragment_chats.xml" value="0.33" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/fragment_people.xml" value="0.5" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/fragment_profile.xml" value="0.33" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/fragment_profile_info.xml" value="0.35054347826086957" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/fragment_search.xml" value="0.5" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/include_profile_info.xml" value="0.3222972972972973" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/item_chat_recycler.xml" value="0.6567901234567901" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/item_chat_recyclerview.xml" value="0.24028906955736223" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/item_recycler_chat.xml" value="0.5" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/item_recycler_incoming_message.xml" value="0.5" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/item_recycler_outgoing_message.xml" value="0.8599695585996956" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/item_recycler_user.xml" value="0.29243353783231085" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/layout/layout_chip_template.xml" value="0.3625" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3141025641025641" />
+        <entry key="..\:/Android Studio Projects/Mobile-Lab2-ITindr/app/src/main/res/xml/xml.xml" value="0.37771739130434784" />
+        <entry key="..\:/Users/vikab/Downloads/Telegram Desktop/Mobile-Lab2-ITindr-4th_Chech/Mobile-Lab2-ITindr-4th_Chech/app/src/main/res/layout/activity_chat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/vikab/Downloads/Telegram Desktop/Mobile-Lab2-ITindr-4th_Chech/Mobile-Lab2-ITindr-4th_Chech/app/src/main/res/layout/activity_create_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/vikab/Downloads/Telegram Desktop/Mobile-Lab2-ITindr-4th_Chech/Mobile-Lab2-ITindr-4th_Chech/app/src/main/res/layout/activity_edit_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/vikab/Downloads/Telegram Desktop/Mobile-Lab2-ITindr-4th_Chech/Mobile-Lab2-ITindr-4th_Chech/app/src/main/res/layout/activity_log_in.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/vikab/Downloads/Telegram Desktop/Mobile-Lab2-ITindr-4th_Chech/Mobile-Lab2-ITindr-4th_Chech/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/vikab/Downloads/Telegram Desktop/Mobile-Lab2-ITindr-4th_Chech/review/app/src/main/res/layout/activity_menu.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
